@@ -92,3 +92,14 @@ The project uses the following dependencies:
 - `chromadb`
 
 You can install all the dependencies by running `pip install -r requirements.txt`.
+
+## Example Queries and Expected behaviors  
+
+**Question 1**: Can you tell me about the the author's grand-mother?
+
+**Expected answer**: The Answer should be from the file hornbill-1-20.pdf as in the first chapter it's shown and the agent should retrieve the document accordingly and decribe the author's grand-mother.
+
+**Question 2**: What is Quantum physics?
+
+**Expected answer**: The Answer should be provided the LLM it self with out using any context as it will be baked into the knowledge base of the LLM Agent
+
