@@ -1,0 +1,9 @@
+videosdk-plugins-google
+videosdk-plugins-silero
+videosdk-plugins-turn_detector
+videosdk-plugins-sarvamai
+google-genai
+chromadb
+pdfplumber
+python-docx
+openpyxl
